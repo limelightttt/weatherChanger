@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url('rainy-bg.jpg') no-repeat center center/cover;
+  font-family: Arial, sans-serif;
+  color: white;
+  transition: background 0.5s ease-in-out
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: orange;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.sound-card {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.sound-card:hover {
+  transform: scale(1.1);
+}
+
+.sound-card img:first-child {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.icon {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

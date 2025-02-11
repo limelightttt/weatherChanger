@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Погодный звук</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="title">Погодный звук</h1>
+    <div class="container">
+        <div class="sound-card" data-sound="summer">
+            <img src="summer-bg.jpg" alt="Лето">
+            <img class="icon" src="pause.svg" alt="Пауза">
+        </div>
+        <div class="sound-card" data-sound="rain">
+            <img src="rainy-bg.jpg" alt="Дождь">
+            <img class="icon" src="pause.svg" alt="Пауза">
+        </div>
+        <div class="sound-card" data-sound="winter">
+            <img src="winter-bg.jpg" alt="Зима">
+            <img class="icon" src="pause.svg" alt="Пауза">
+        </div>
+    </div>
+    <audio id="summer" src="summer.mp3"></audio>
+    <audio id="rain" src="rain.mp3"></audio>
+    <audio id="winter" src="winter.mp3"></audio>
+    <script src="./main.js"></script>
+</body>
+</html>
+
