@@ -7,9 +7,9 @@ const sounds = {
 
 
 const backgrounds = {
-    summer: "summer-bg.jpg",
-    rain: "rainy-bg.jpg",
-    winter: "winter-bg.jpg"
+    summer: "./assets/summer-bg.jpg",
+    rain: "./assets/rainy-bg.jpg",
+    winter: "./assets/winter-bg.jpg"
 };
 
 soundCards.forEach(card => {

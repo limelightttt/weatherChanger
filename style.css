@@ -6,7 +6,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: url('rainy-bg.jpg') no-repeat center center/cover;
+  background: url('./assets/rainy-bg.jpg') no-repeat center center/cover;
   font-family: Arial, sans-serif;
   color: white;
   transition: background 0.5s ease-in-out
